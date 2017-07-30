@@ -55,7 +55,7 @@
 |戊| 爱心觉罗|三点式| 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 |  基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
 |己| 黑煤炭|rainyx|rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人、| 实验-阻止iCloud 日历上的垃圾邮件邀请  |
 |庚|	 | |||
-|辛| 物以类聚  	 |afox| afox、物以类聚、XGalaxy、AliceForever、ctonegao、麋鹿了迷路了、yaren | joker：使用joker抽取iOS 11的kernelcache |
+|辛| 物以类聚  	 |afox| afox、物以类聚、XGalaxy、AliceForever、ctonegao、麋鹿了迷路了、yaren | 苹果FSEvent深层文件系统调用记录方法论|
 |壬|    	 | || |
 |癸|  | | |  |
 |子| | ||  |
