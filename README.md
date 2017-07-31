@@ -50,7 +50,7 @@
 |:-:|:-|:-|:-|:-|
 |甲| gezihuzi| B1nGzl|B1nGzl、星期五、HSHtime、今天星期六吧、myhloli、iOSSecret|如何在 macOS 中监控指定应用的 HTTPS 流量	|
 |乙|dunwin |song |song、dunwin、parker1014、长昵称、顾何、前方的路、easthg|not yet|
-|丙|liuswear| 布兜儿|布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial| 实验code review 解码苹果上所有的Tokens decrypts/extracts all authorization tokens on macOS/OSX |
+|丙|liuswear| 布兜儿|布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial| MacRansom,Mac上的勒索软件分析（带过反调试、反虚拟机）|[OSX/MacRansom:analyzing the latest ransomware to target macs](https://objective-see.com/blog/blog_0x1E.html)|23:59 of 28th,August|
 |丁|	 ||| not yet  |
 |戊| 爱心觉罗|三点式| 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 |  基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
 |己| 黑煤炭|rainyx|rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人、| 实验-阻止iCloud 日历上的垃圾邮件邀请  |
