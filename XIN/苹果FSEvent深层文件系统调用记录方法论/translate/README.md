@@ -197,7 +197,7 @@ FSEvents日志文件记录垃圾篓活动，包括发送到垃圾篓和清空垃
 ###### SQLite查询示例
 ```
 SELECT
-*, \_ROWID\_ "NAVICAT_ROWID"
+*, _ROWID_ "NAVICAT_ROWID"
 FROM
 "fsevents"
 WHERE
@@ -212,7 +212,7 @@ WHERE
 ###### SQLite查询示例
 ```
 SELECT
-*, \_ROWID\_ "NAVICAT_ROWID"
+*, _ROWID_ "NAVICAT_ROWID"
 FROM
 "fsevents"
 WHERE
@@ -232,7 +232,7 @@ AND "mask" LIKE '%mount%'
 ###### SQLite查询示例
 ```
 SELECT
-*, \_ROWID\_ "NAVICAT_ROWID"
+*, _ROWID_ "NAVICAT_ROWID"
 FROM
 "fsevents"
 WHERE
@@ -255,7 +255,7 @@ AND "filename" NOT LIKE 'Users/%/Documents/Microsoft User Data/Office %'
 ###### SQLite查询示例
 ```
 SELECT
-*, \_ROWID\_ "NAVICAT_ROWID"
+*, _ROWID_ "NAVICAT_ROWID"
 FROM
 "fsevents"
 WHERE
@@ -272,7 +272,7 @@ AND "filename" NOT LIKE '/home'
 ###### SQLite查询示例
 ```
 SELECT
-*, \_ROWID\_ "NAVICAT_ROWID"
+*, _ROWID_ "NAVICAT_ROWID"
 FROM
 "fsevents"
 WHERE
@@ -290,7 +290,7 @@ FSEvents会记录已登陆iCloud账号的同步文件。
 ###### SQLite查询示例
 ```
 SELECT
-*, \_ROWID\_ "NAVICAT_ROWID"
+*, _ROWID_ "NAVICAT_ROWID"
 FROM
 "fsevents"
 WHERE
@@ -305,7 +305,7 @@ WHERE
 ###### SQLite查询示例
 ```
 SELECT
-*, \_ROWID\_ "NAVICAT_ROWID"
+*, _ROWID_ "NAVICAT_ROWID"
 FROM
 "fsevents"
 WHERE
