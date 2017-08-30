@@ -1,4 +1,14 @@
 
+# TEAM SCORE OF AUGUST
+
+| TEAM | POINT |                  DETAIL                  |PAPER|
+| :--: | :---: | :--------------------------------------: |:--:|
+|  辛   | 1000  |  |[苹果FSEvent深层文件系统调用记录方法论](./XIN/苹果FSEvent深层文件系统调用记录方法论/README.md)|
+|   丙 |  900  |  | [MacRansom,Mac上的勒索软件分析（带过反调试、反虚拟机）](./BING/MacRansom%2CMac上的勒索软件分析（带过反调试、反虚拟机）/)|
+
+
+
+
 # TEAM SCORE OF JULY
 
 | TEAM | POINT |                  DETAIL                  |
