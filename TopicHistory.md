@@ -4,7 +4,7 @@
 | TEAM | POINT |                  DETAIL                  |PAPER|
 | :--: | :---: | :--------------------------------------: |:--:|
 |  辛   | 1000  | afox:333 物以类聚:333  yaren:333 roysue:1 |[苹果FSEvent深层文件系统调用记录方法论](./XIN/苹果FSEvent深层文件系统调用记录方法论/README.md)|
-|   丙 |  900  |  | [MacRansom,Mac上的勒索软件分析（带过反调试、反虚拟机）](./BING/MacRansom%2CMac上的勒索软件分析（带过反调试、反虚拟机）/)|
+|   丙 |  900  | 布兜儿:200, kiba:350, 初 见:350 | [MacRansom,Mac上的勒索软件分析（带过反调试、反虚拟机）](./BING/MacRansom%2CMac上的勒索软件分析（带过反调试、反虚拟机）/)|
 
 
 
