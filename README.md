@@ -3,17 +3,16 @@
 |BLACK|POINT|WHITE|POINT|KANXUE|POINT|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |黑苹果群|积分|白苹果群|积分|雪花群|积分|
-|afox|300|凌迟|175|物以类聚|300|
-|rainyx|200|小学生|175|黑煤炭|200|
-|布兜儿|135|黄大先生|150|紫枫闲人|200|
-|B1nGzl|100|HSHtime|150|aliceforever|200|
-|||AloneMonkey|135|cosmosdzh|200|
-|||七步阶|100|XGalaxy|200|
-|||||chen|180|
-|||||madmark|180|
+|afox|933|物以类聚|933|kiba|685|
+|布兜儿|535|yaren|333|aliceforever|400|
+|rainyx|200|凌迟|175|chen|380|
+|B1nGzl|100|小学生|175|madmark|380|
+|||黄大先生|150|初 见|350|
+|||HSHtime|150|liuswear|335|
+|||AloneMonkey|135|黑煤炭|200|
+|||七步阶|100|紫枫闲人|200|
+|||||cosmosdzh|200|
 |||||星期五|150|
-|||||asel|150|
-|||||lostkid-hz|150|
 
 .
 .
@@ -21,20 +20,20 @@
 
 ------
 
-# TOPICS OF AUGUST
+# TOPICS OF SEPTEMBER
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
 |:--|--|--|:--|
-|★|【Code Review】Tweak开发：Respring之后弹自定义消息|[PopUpOnStart](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★|【非越狱调试】Frida的基本功能 |[Cross-platform reversing with Frida](http://2015.zeronights.org/assets/files/23-Ravnas.pdf)|23:59 of 28th,August|
-|★|【Code Review】Tweak开发：给调音量增加震动反馈|[Volbrate](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★★|【非越狱调试】通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|23:59 of 28th,August|
-|★★|【Code Review】Tweak开发：每次respring之后给你播放一段音乐|[SoundSpring](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★★|【非越狱调试】逆向iOS过程中一些有用的Frida脚本|[some useful frida script for iOS Reversing](https://github.com/as0ler/frida-scripts)|23:59 of 28th,August|
-|★★★|苹果FSEvent深层文件系统调用记录方法论|[Apple FSEvents Forensics](http://nicoleibrahim.com/apple-fsevents-forensics/)|23:59 of 28th,August|
-|★★★|MacRansom,Mac上的勒索软件分析（带过反调试、反虚拟机）|[OSX/MacRansom:analyzing the latest ransomware to target macs](https://objective-see.com/blog/blog_0x1E.html)|23:59 of 28th,August|
-|★★★|iOS软件安全全局方法论| [iOS Application Security Review Methodology](http://research.aurainfosec.io/ios-application-security-review-methodology/)|23:59 of 28th,August|
-|★★★★|Project Zero 研究员 Felix总结的iOS安全开发方法论| [Secure iOS application development](https://github.com/felixgr/secure-ios-app-dev)|23:59 of 28th,August|
+|★|【Code Review】Tweak开发：Respring之后弹自定义消息|[PopUpOnStart](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,September|
+|★|【非越狱调试】Frida的基本功能 |[Cross-platform reversing with Frida](http://2015.zeronights.org/assets/files/23-Ravnas.pdf)|23:59 of 28th,September|
+|★|【Code Review】Tweak开发：给调音量增加震动反馈|[Volbrate](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,September|
+|★★|【非越狱调试】通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|23:59 of 28th,September|
+|★★|【iOS App安全】App逆向研究的方法|[RECON-BRX-2017-Analysing_ios_Apps](http://bbs.pediy.com/thread-220771.htm)|23:59 of 28th,September|
+|★★|【非越狱调试】逆向iOS过程中一些有用的Frida脚本|[some useful frida script for iOS Reversing](https://github.com/as0ler/frida-scripts)|23:59 of 28th,September|
+|★★|【IDA系列】IDA Pro 6.8 for mac破解版上手指南|文件在雪花群群文件里下载|23:59 of 28th,September|
+|★★★|【IDA系列】IDA伴侣——FRIEND|[Flexible Register/Instruction Extender aNd Documentation](https://github.com/alexhude/FRIEND)|23:59 of 28th,September|
+|★★★|iOS软件安全全局方法论| [iOS Application Security Review Methodology](http://research.aurainfosec.io/ios-application-security-review-methodology/)|23:59 of 28th,September|
+|★★★★|Project Zero 研究员 Felix总结的iOS安全开发方法论| [Secure iOS application development](https://github.com/felixgr/secure-ios-app-dev)|23:59 of 28th,September|
 
 >[TopicHistory](TopicHistory.md)
 
