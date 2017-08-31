@@ -1,3 +1,3 @@
-Time  | Topic
------ | -----
-August.2017 | [frida-learn-by-example](paper/README.md)
+### 8月任务
+
+**通过实验来了解Frida的使用**

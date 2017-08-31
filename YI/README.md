@@ -1,4 +1,3 @@
-乙
-| TIME      | TOPIC                                    |
-| --------- | ---------------------------------------- |
-| 2017.08   | 【非越狱调试】 通过案例入门 Frida      |
+Time  | Topic
+----- | -----
+August.2017 | [frida-learn-by-example](【非越狱调试】通过案例入门Frida/paper/README.md)
