@@ -20,20 +20,20 @@
 
 ------
 
-# TOPICS OF AUGUST
+# TOPICS OF SEPTEMBER
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
 |:--|--|--|:--|
-|★|【Code Review】Tweak开发：Respring之后弹自定义消息|[PopUpOnStart](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★|【非越狱调试】Frida的基本功能 |[Cross-platform reversing with Frida](http://2015.zeronights.org/assets/files/23-Ravnas.pdf)|23:59 of 28th,August|
-|★|【Code Review】Tweak开发：给调音量增加震动反馈|[Volbrate](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★★|【非越狱调试】通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|23:59 of 28th,August|
-|★★|【iOS App安全】App逆向研究的方法|[RECON-BRX-2017-Analysing_ios_Apps](http://bbs.pediy.com/thread-220771.htm)|
-|★★|【非越狱调试】逆向iOS过程中一些有用的Frida脚本|[some useful frida script for iOS Reversing](https://github.com/as0ler/frida-scripts)|23:59 of 28th,August|
-|★★|【IDA系列】IDA Pro 6.8 for mac破解版上手指南|文件在雪花群群文件里下载|
-|★★★|【IDA系列】IDA伴侣——FRIEND|[Flexible Register/Instruction Extender aNd Documentation](https://github.com/alexhude/FRIEND)|
-|★★★|iOS软件安全全局方法论| [iOS Application Security Review Methodology](http://research.aurainfosec.io/ios-application-security-review-methodology/)|23:59 of 28th,August|
-|★★★★|Project Zero 研究员 Felix总结的iOS安全开发方法论| [Secure iOS application development](https://github.com/felixgr/secure-ios-app-dev)|23:59 of 28th,August|
+|★|【Code Review】Tweak开发：Respring之后弹自定义消息|[PopUpOnStart](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,September|
+|★|【非越狱调试】Frida的基本功能 |[Cross-platform reversing with Frida](http://2015.zeronights.org/assets/files/23-Ravnas.pdf)|23:59 of 28th,September|
+|★|【Code Review】Tweak开发：给调音量增加震动反馈|[Volbrate](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,September|
+|★★|【非越狱调试】通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|23:59 of 28th,September|
+|★★|【iOS App安全】App逆向研究的方法|[RECON-BRX-2017-Analysing_ios_Apps](http://bbs.pediy.com/thread-220771.htm)|23:59 of 28th,September|
+|★★|【非越狱调试】逆向iOS过程中一些有用的Frida脚本|[some useful frida script for iOS Reversing](https://github.com/as0ler/frida-scripts)|23:59 of 28th,September|
+|★★|【IDA系列】IDA Pro 6.8 for mac破解版上手指南|文件在雪花群群文件里下载|23:59 of 28th,September|
+|★★★|【IDA系列】IDA伴侣——FRIEND|[Flexible Register/Instruction Extender aNd Documentation](https://github.com/alexhude/FRIEND)|23:59 of 28th,September|
+|★★★|iOS软件安全全局方法论| [iOS Application Security Review Methodology](http://research.aurainfosec.io/ios-application-security-review-methodology/)|23:59 of 28th,September|
+|★★★★|Project Zero 研究员 Felix总结的iOS安全开发方法论| [Secure iOS application development](https://github.com/felixgr/secure-ios-app-dev)|23:59 of 28th,September|
 
 >[TopicHistory](TopicHistory.md)
 
