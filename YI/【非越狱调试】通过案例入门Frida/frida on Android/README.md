@@ -20,14 +20,14 @@ push frida-server 到Android 端
 PC端 使用命令check
 
 
-![image](frida-ps.png)
+![image](../pic/frida-ps.png)
 
 
 
 ## 实验
 ### Frida-trace 扩展
 
-![image](frida-trace.png)
+![image](../pic/frida-trace.png)
 
 
 ### iOS  拦截API
@@ -42,7 +42,7 @@ https://github.com/illnino/frida-learn-by-example
 ### Root Detection Bypass, Hook the password [Android]
 
 1. adb install *.apk
-![image](1.jpg)
+![image](../pic/1.jpg)
 ~~~~
 **@ubuntu:~/kanxue/frida-learn-by-example/3. Root_detection_hook_password$ frida -U -f sg.vantagepoint.uncrackable1
      ____
@@ -73,7 +73,7 @@ load command expects 1 argument
 
 ### Brute Force PIN [Android]
 1.   adb install *apk 
-![image](3.jpg)
+![image](../pic/3.jpg)
 2.   frida-ps -Uai
 ~~~~
 *l@ubuntu:~/kanxue/frida-learn-by-example/4. brute_force_pin$ frida-ps -Uai
