@@ -18,3 +18,6 @@ https://github.com/as0ler/frida-scripts
 * week 3 8月14日 - 8月21日  汇总所有Frida的实验与文档 组员可以进阶Frida 脚本应用。
 
 ## 每周更新内容
+
+1. [安装firda及其基本功能](paper)
+2. [各种高级功能](fridaOnAndroid)
