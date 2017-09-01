@@ -3,16 +3,16 @@
 |BLACK|POINT|WHITE|POINT|KANXUE|POINT|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |黑苹果群|积分|白苹果群|积分|雪花群|积分|
-|afox|933|物以类聚|933|kiba|685|
-|布兜儿|535|yaren|333|aliceforever|400|
-|rainyx|200|凌迟|175|chen|380|
-|B1nGzl|100|小学生|175|madmark|380|
-|||黄大先生|150|初 见|350|
-|||HSHtime|150|liuswear|335|
-|||AloneMonkey|135|黑煤炭|200|
-|||七步阶|100|紫枫闲人|200|
+|afox|933|物以类聚|933|dunwin|900|
+|布兜儿|535|yaren|333|kiba|685|
+|rainyx|200|凌迟|175|aliceforever|400|
+|B1nGzl|100|小学生|175|chen|380|
+|||黄大先生|150|madmark|380|
+|||HSHtime|150|初 见|350|
+|||AloneMonkey|135|liuswear|335|
+|||七步阶|100|黑煤炭|200|
+|||||紫枫闲人|200|
 |||||cosmosdzh|200|
-|||||星期五|150|
 
 .
 .
