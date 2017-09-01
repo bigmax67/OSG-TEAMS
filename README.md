@@ -48,7 +48,7 @@
 |TEAMS|CONTACTER|LEADER|MEMBERS|MONTHLY TOPIC|
 |:-:|:-|:-|:-|:-|
 |甲| gezihuzi| B1nGzl|B1nGzl、星期五、HSHtime、今天星期六吧、myhloli、iOSSecret|如何在 macOS 中监控指定应用的 HTTPS 流量	|
-|乙|dunwin |song |song、dunwin、parker1014、长昵称、顾何、前方的路、easthg|【非越狱调试】通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|
+|乙|dunwin |song |song、dunwin、parker1014、长昵称、顾何、前方的路、easthg|PopUpOnStart|
 |丙|liuswear| 布兜儿|布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial| 【IDA系列】IDA伴侣——FRIEND|
 |戊| 爱心觉罗|三点式| 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 |  基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
 |己| 黑煤炭|rainyx|rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人| 【Code Review】Tweak开发：给调音量增加震动反馈 |
