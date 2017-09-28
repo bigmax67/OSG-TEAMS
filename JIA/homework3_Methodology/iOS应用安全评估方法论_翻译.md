@@ -33,11 +33,11 @@
 
 #### Need for Jailbreak
 
-为了进行一次彻底的iOS应用审查，用一个越狱设备是比较明智的。有一系列的测试可以在非越狱设备上执行，但审查在这种情况下是有局限性的。在这篇文章中,可以执行在非越狱设备上的检查会标记<span style="color: green">[Jailbreak unnecessary]</span>，而当越狱是必要的,标签将被指定为 <span style="color: red">[Jailbreak needed]</span>。一些越狱设备的应用程序审查工具，请看： [<http://resources.infosecinstitute.com/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/>]( <http://resources.infosecinstitute.com/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/)
+为了进行一次彻底的iOS应用审查，用一个越狱设备是比较明智的。有一系列的测试可以在非越狱设备上执行，但审查在这种情况下是有局限性的。在这篇文章中,可以执行在非越狱设备上的检查会标记<span style="color: green">[Jailbreak unnecessary]</span>，而当越狱是必要的,标签将被指定为 <span style="color: red">[Jailbreak needed]</span>。一些越狱设备的应用程序审查工具，请看： <http://resources.infosecinstitute.com/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/>
 
 #### Remote API
 
-大部分的移动应用程序依赖于网络API来执行用户身份验证，同步或备份本地应用程序的数据，等等。为了测试这些API，需要一个代理程序去代理移动应用程序的网络请求(例如Burp)。设置设备代理请求到另一个主机,请参考官方代理指南。拿Burp来说，请看： [<https://support.portswigger.net/customer/portal/articles/1841108-configuring-an-ios-device-to-work-with-burp>](https://support.portswigger.net/customer/portal/articles/1841108-configuring-an-ios-device-to-work-with-burp) 。这篇文章不会关注潜在的远程API问题。一个列表来检查本地移动应用的网络通信:
+大部分的移动应用程序依赖于网络API来执行用户身份验证，同步或备份本地应用程序的数据，等等。为了测试这些API，需要一个代理程序去代理移动应用程序的网络请求(例如Burp)。设置设备代理请求到另一个主机,请参考官方代理指南。拿Burp来说，请看： <https://support.portswigger.net/customer/portal/articles/1841108-configuring-an-ios-device-to-work-with-burp>。这篇文章不会关注潜在的远程API问题。一个列表来检查本地移动应用的网络通信:
 
 - 远程API的富文本通信
 - 缺乏SSL证书锁定
