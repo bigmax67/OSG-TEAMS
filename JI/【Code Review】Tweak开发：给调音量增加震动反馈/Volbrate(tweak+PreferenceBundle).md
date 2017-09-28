@@ -1,6 +1,3 @@
-
-[TOC]
-
 # Volbrate（tweak+PreferenceBundle）
 
 最近分析一个开源越狱插件--[Volbrate][1]，这个插件是给iPhone音量键增加震动的，功能很简单。亮点在于，这个插件提供了在手机设置中做一些功能修改和设定
@@ -71,7 +68,7 @@
 ### 震动实现
 
 tweak中震动的实现是 调用一个private API ：`AudioServicesPlaySystemSoundWithVibration`    
-Apple官方并没有这个函数的文档。搜索这个函数，出来最多就是[are there apis for custom vibrations in ios][4]。翻译部分信息：    
+Apple官方并没有这个函数的文档。搜索这个函数，出来最多就是[are there apis for custom vibrations in ios][4]。翻译部分内容：    
 其函数原型:    
 `void AudioServicesPlaySystemSoundWithVibration(SystemSoundID inSystemSoundID, id arg, NSDictionary* vibratePattern)`
 
@@ -142,7 +139,7 @@ Root.plist可以看做是PreferenceBundle的UI布局文件。其中要跟tweak�
     <key>key</key>
     <string>varName</stirng>
     ```
-    **entry.plist 和 Root.plist文件的所用的键值详细内容，可参考[Preferences specifier plist][11]**
+    **entry.plist 和 Root.plist文件的所用的键值详细内容，可参考[Preferences specifier plist][11]**    
     Info.plist和Root.plist都在Resources文件夹里。且工程所用到图片，图标文件也保存在Resources目录下。
     
 - 代码文件    
