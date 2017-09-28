@@ -5,9 +5,8 @@
 
 最近分析一个开源越狱插件--[Volbrate][1]，这个插件是给iPhone音量键增加震动的，功能很简单。亮点在于，这个插件提供了在手机设置中做一些功能修改和设定
 
-如图所示：
+如图所示：    
 <img src="media/15056458276103/79CFA5056A24202ABBEBE48B5BF5C87E.png" width = "300" height = "550" alt="图片名称" align=center />
-
 
 通过搜索知道是利用了PreferenceBundle，theos第9个模板--preference_bundle_modern。只写过tweak，对PreferenceBundle不了解，所以就边分析边学怎么写PreferenceBundle。
 
@@ -64,17 +63,16 @@
 	}
 %end
 ```
-由代码可知，hook VolumeControl类里面的三个函数。
+由代码可知，hook VolumeControl类里面的三个函数。    
 `-(float)volume`  获取音量值    
 `-(void)increaseVolume`  增加一格音量    
 `-(void)decreaseVolume`   减少一格音量    
 
 ### 震动实现
 
-tweak中震动的实现是 调用一个private API ：`AudioServicesPlaySystemSoundWithVibration`
-Apple官方并没有这个函数的文档。    
-搜索这个函数，出来最多就是[are there apis for custom vibrations in ios][4]，翻译部分信息：    
-其函数原型:
+tweak中震动的实现是 调用一个private API ：`AudioServicesPlaySystemSoundWithVibration`    
+Apple官方并没有这个函数的文档。搜索这个函数，出来最多就是[are there apis for custom vibrations in ios][4]。翻译部分信息：    
+其函数原型:    
 `void AudioServicesPlaySystemSoundWithVibration(SystemSoundID inSystemSoundID, id arg, NSDictionary* vibratePattern)`
 
 - 第一个参数：inSystemSoundID类型为SystemSoundID，就像调用[AudioServicesPlaySystemSound:][5]函数一样，赋值为`kSystemSoundID_Vibrate`可以产生短暂的震动   
@@ -119,7 +117,7 @@ PreferenceBundles作为tweak的扩展，**直接就在tweak的工程目录**新�
 
 ![][7]
 
-如图依次填入，工程名，BundleID，工程前缀
+如图依次填入，工程名，BundleID，工程前缀    
 最后的目录结构如图：
 
 ![][8]
@@ -149,8 +147,7 @@ Root.plist可以看做是PreferenceBundle的UI布局文件。其中要跟tweak�
     
 - 代码文件    
 模板会新建两个文件，`XXXRootListController.h` 和 `XXXRootListController.m`，`XXX`就是之前设置的工程前缀。      
-`XXXRootListController`必须继承`PSListController`或者`PSViewController`，且必须实现`- (id)specifiers`方法，因为`PSListController`依赖`_specifiers`来获得metadata和group。
-
+`XXXRootListController`必须继承`PSListController`或者`PSViewController`，且必须实现`- (id)specifiers`方法，因为`PSListController`依赖`_specifiers`来获得metadata和group。    
 [iphonedevwiki][6]的示例代码：
 
     ```mm
