@@ -1,3 +1,17 @@
+   * [Volbrate（tweak PreferenceBundle）](#volbratetweakpreferencebundle)
+      * [tweak](#tweak)
+         * [plist文件](#plist文件)
+         * [xm文件](#xm文件)
+         * [震动实现](#震动实现)
+      * [preferenceBundle](#preferencebundle)
+         * [新建PreferenceBundle工程](#新建preferencebundle工程)
+         * [PreferenceBundle文件](#preferencebundle文件)
+         * [加载PreferenceBundle](#加载preferencebundle)
+         * [makefile](#makefile)
+         * [编译](#编译)
+   * [总结](#总结)
+   * [参考链接](#参考链接)
+   
 # Volbrate（tweak+PreferenceBundle）
 
 最近分析一个开源越狱插件--[Volbrate][1]，这个插件是给iPhone音量键增加震动的，功能很简单。亮点在于，这个插件提供了在手机设置中做一些功能修改和设定
