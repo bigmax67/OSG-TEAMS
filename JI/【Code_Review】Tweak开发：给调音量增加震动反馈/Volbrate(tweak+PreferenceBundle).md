@@ -227,11 +227,11 @@ makefile的编写跟tweak差不多
 
 # 参考链接
 
-https://github.com/derv82/Exchangent/wiki/Part-6:-Preferences,-Preferences,-a-little-Tweak,-and-Heaps-of-More-Preferences
-http://sharedinstance.net/2015/02/settings-the-right-way-redux/
-http://iphonedevwiki.net/index.php/PreferenceBundles
-https://developer.apple.com/documentation/audiotoolbox/ksystemsoundid_vibrate
-http://sharedinstance.net/2015/02/settings-the-right-way-redux/
+https://github.com/derv82/Exchangent/wiki/Part-6:-Preferences,-Preferences,-a-little-Tweak,-and-Heaps-of-More-Preferences    
+http://sharedinstance.net/2015/02/settings-the-right-way-redux/    
+http://iphonedevwiki.net/index.php/PreferenceBundles    
+https://developer.apple.com/documentation/audiotoolbox/ksystemsoundid_vibrate    
+http://sharedinstance.net/2015/02/settings-the-right-way-redux/    
 
 
 [1]:https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/Volbrate
