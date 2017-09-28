@@ -9,16 +9,16 @@
 
 通过搜索知道是利用了PreferenceBundle，theos第9个模板--preference_bundle_modern。只写过tweak，对PreferenceBundle不了解，所以就边分析边学怎么写PreferenceBundle。
 
-##tweak
+## tweak
 
 有关tweak的编写，资料好多，就不再说了。推荐看狗神的《iOS应用逆向工程》第二版
 
-####plist文件
+#### plist文件
 
 ![plist][3]
 可知，其作用于springboard
 
-####xm文件
+#### xm文件
 
 简单来说，就是hook音量键，然后添加震动功能。
 关键hook代码：
@@ -66,7 +66,7 @@
 `-(void)increaseVolume`  增加一格音量
 `-(void)decreaseVolume`   减少一格音量
 
-####震动实现
+#### 震动实现
 
 tweak中震动的实现是 调用一个private API ：`AudioServicesPlaySystemSoundWithVibration`
 Apple官方并没有这个函数的文档。
@@ -98,7 +98,7 @@ Apple官方并没有这个函数的文档。
 }
 ```
 
-##preferenceBundle
+## preferenceBundle
 
 有意思的是怎么才能写PreferenceBundle，在设置中随时修改某些参数。达到修改tweak功能的作用。比如可以做一个 是否启用hook的开关...    
 Preference Bundles可以作为iPhone设置中的扩展程序，开发者能编写自己想要的bundles，安装后位于手机`/Library/PreferenceBundles/`目录下。
@@ -109,18 +109,23 @@ PreferenceLoaders是MobileSubstrate其中的一个工具，可以把tweak扩展P
 - Tweak.xm不能直接调用PreferenceBundle来获取一些修改后的变量值，而是通过另一种方式，比如从某个plist文件读取，变量的plist文件位于`/User/Library/Preferences`目录。
 
 
-####新建PreferenceBundle工程
+#### 新建PreferenceBundle工程
 
 PreferenceBundles作为tweak的扩展，**直接就在tweak的工程目录**新建PreferenceBundles工程   
 利用theos nic.pl来创建新建PreferenceBunldes工程
+
 ![][7]
+
 如图依次填入，工程名，BundleID，工程前缀
 最后的目录结构如图：
+
 ![][8]
+
 这时候tweak的makefile会自动增加一些东西
+
 ![][9]
 
-####PreferenceBundle文件
+#### PreferenceBundle文件
 
 - entry.plist   
 确定在设置应用中的入口图标，文字等。
@@ -149,11 +154,11 @@ Root.plist可以看做是PreferenceBundle的UI布局文件。其中要跟tweak�
     	return _specifiers;
     }
     ```
-kNameOfPreferencePlist指的就是Root.plist。
-这些theos都已经替我们做好了。其他逻辑代码就写在XXXRootListController.m里，可以有多个.m文件。   
-如何在PreferenceBundle中设置和读取要交互的变量，具体方法可参考[iphonedevwiki][6]
+    kNameOfPreferencePlist指的就是Root.plist。
+    这些theos都已经替我们做好了。其他逻辑代码就写在XXXRootListController.m里，可以有多个.m文件。   
+    如何在PreferenceBundle中设置和读取要交互的变量，具体方法可参考[iphonedevwiki][6]
 
-####加载PreferenceBundle
+#### 加载PreferenceBundle
 
 在tweak的constructor（%ctor）中完成PreferenceBundle的加载，
 [Preferences][12]的示例代码：
@@ -207,18 +212,19 @@ static void notificationCallback(CFNotificationCenterRef center, void *observer,
 - 第五个参数：NULL
 - 第六个参数：`CFNotificationSuspensionBehaviorCoalesce`，不变
 
-####makefile
+#### makefile
 
 makefile的编写跟tweak差不多
-####编译
+
+#### 编译
 
 编译是跟tweak一起编译，不用做其他操作。
 
-#总结
+# 总结
 
 如何写PreferenceBundle的中文资料没找到，所以参考的都是英文资料，所以有些地方翻译的不好，大致意思应该明白。写的较为简单，算是基本了解怎么写PreferenceBundle吧。
 
-#参考链接
+# 参考链接
 
 https://github.com/derv82/Exchangent/wiki/Part-6:-Preferences,-Preferences,-a-little-Tweak,-and-Heaps-of-More-Preferences
 http://sharedinstance.net/2015/02/settings-the-right-way-redux/
