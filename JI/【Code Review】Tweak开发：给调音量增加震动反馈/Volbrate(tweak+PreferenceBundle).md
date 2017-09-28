@@ -4,8 +4,10 @@
 # Volbrate（tweak+PreferenceBundle）
 
 最近分析一个开源越狱插件--[Volbrate][1]，这个插件是给iPhone音量键增加震动的，功能很简单。亮点在于，这个插件提供了在手机设置中做一些功能修改和设定
+
 如图所示：
-![Volbrate Preference-w300][2]
+<img src="media/15056458276103/79CFA5056A24202ABBEBE48B5BF5C87E.png" width = "300" height = "550" alt="图片名称" align=center />
+
 
 通过搜索知道是利用了PreferenceBundle，theos第9个模板--preference_bundle_modern。只写过tweak，对PreferenceBundle不了解，所以就边分析边学怎么写PreferenceBundle。
 
@@ -13,12 +15,13 @@
 
 有关tweak的编写，资料好多，就不再说了。推荐看狗神的《iOS应用逆向工程》第二版
 
-#### plist文件
+### plist文件
 
 ![plist][3]
+
 可知，其作用于springboard
 
-#### xm文件
+### xm文件
 
 简单来说，就是hook音量键，然后添加震动功能。
 关键hook代码：
@@ -62,15 +65,15 @@
 %end
 ```
 由代码可知，hook VolumeControl类里面的三个函数。
-`-(float)volume`  获取音量值
-`-(void)increaseVolume`  增加一格音量
-`-(void)decreaseVolume`   减少一格音量
+`-(float)volume`  获取音量值    
+`-(void)increaseVolume`  增加一格音量    
+`-(void)decreaseVolume`   减少一格音量    
 
-#### 震动实现
+### 震动实现
 
 tweak中震动的实现是 调用一个private API ：`AudioServicesPlaySystemSoundWithVibration`
-Apple官方并没有这个函数的文档。
-搜索这个函数，出来最多就是[are there apis for custom vibrations in ios][4]，翻译部分信息：
+Apple官方并没有这个函数的文档。    
+搜索这个函数，出来最多就是[are there apis for custom vibrations in ios][4]，翻译部分信息：    
 其函数原型:
 `void AudioServicesPlaySystemSoundWithVibration(SystemSoundID inSystemSoundID, id arg, NSDictionary* vibratePattern)`
 
@@ -109,7 +112,7 @@ PreferenceLoaders是MobileSubstrate其中的一个工具，可以把tweak扩展P
 - Tweak.xm不能直接调用PreferenceBundle来获取一些修改后的变量值，而是通过另一种方式，比如从某个plist文件读取，变量的plist文件位于`/User/Library/Preferences`目录。
 
 
-#### 新建PreferenceBundle工程
+### 新建PreferenceBundle工程
 
 PreferenceBundles作为tweak的扩展，**直接就在tweak的工程目录**新建PreferenceBundles工程   
 利用theos nic.pl来创建新建PreferenceBunldes工程
@@ -125,14 +128,16 @@ PreferenceBundles作为tweak的扩展，**直接就在tweak的工程目录**新�
 
 ![][9]
 
-#### PreferenceBundle文件
+### PreferenceBundle文件
 
-- entry.plist   
+- entry.plist      
 确定在设置应用中的入口图标，文字等。
 ![][10]
-- Info.plist   
+
+- Info.plist     
 这个文件保存工程信息，不需做什么修改
-- Root.plist
+
+- Root.plist   
 Root.plist可以看做是PreferenceBundle的UI布局文件。其中要跟tweak交互的变量就声明在这里，比如：
 
     ```xml
@@ -141,9 +146,11 @@ Root.plist可以看做是PreferenceBundle的UI布局文件。其中要跟tweak�
     ```
     **entry.plist 和 Root.plist文件的所用的键值详细内容，可参考[Preferences specifier plist][11]**
     Info.plist和Root.plist都在Resources文件夹里。且工程所用到图片，图标文件也保存在Resources目录下。
-- 代码文件
-模板会新建两个文件，`XXXRootListController.h` 和 `XXXRootListController.m`，`XXX`就是之前设置的工程前缀。   
+    
+- 代码文件    
+模板会新建两个文件，`XXXRootListController.h` 和 `XXXRootListController.m`，`XXX`就是之前设置的工程前缀。      
 `XXXRootListController`必须继承`PSListController`或者`PSViewController`，且必须实现`- (id)specifiers`方法，因为`PSListController`依赖`_specifiers`来获得metadata和group。
+
 [iphonedevwiki][6]的示例代码：
 
     ```mm
@@ -158,7 +165,7 @@ Root.plist可以看做是PreferenceBundle的UI布局文件。其中要跟tweak�
     这些theos都已经替我们做好了。其他逻辑代码就写在XXXRootListController.m里，可以有多个.m文件。   
     如何在PreferenceBundle中设置和读取要交互的变量，具体方法可参考[iphonedevwiki][6]
 
-#### 加载PreferenceBundle
+### 加载PreferenceBundle
 
 在tweak的constructor（%ctor）中完成PreferenceBundle的加载，
 [Preferences][12]的示例代码：
@@ -212,11 +219,11 @@ static void notificationCallback(CFNotificationCenterRef center, void *observer,
 - 第五个参数：NULL
 - 第六个参数：`CFNotificationSuspensionBehaviorCoalesce`，不变
 
-#### makefile
+### makefile
 
 makefile的编写跟tweak差不多
 
-#### 编译
+### 编译
 
 编译是跟tweak一起编译，不用做其他操作。
 
