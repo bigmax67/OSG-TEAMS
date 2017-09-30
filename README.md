@@ -1,3 +1,5 @@
+# 国庆节休息，一切暂停。国庆后再开。
+
 # RANKINGS
 
 |BLACK|POINT|WHITE|POINT|KANXUE|POINT|
