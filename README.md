@@ -1,4 +1,5 @@
-# 国庆节休息，一切暂停。国庆后再开。
+# 十月份休息，十一月再开。
+# Little break in October, back in the beginning of November.
 
 # RANKINGS
 
