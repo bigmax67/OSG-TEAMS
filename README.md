@@ -1,6 +1,3 @@
-# 十月份休息，十一月再开。
-# Little break in October, back in the beginning of November.
-
 # RANKINGS
 
 | BLACK  | POINT |    WHITE    | POINT |    KANXUE    | POINT |
@@ -50,7 +47,7 @@
 
 | TEAMS | CONTACTER | LEADER | MEMBERS                                  | MONTHLY TOPIC                        |
 | :---: | :-------- | :----- | :--------------------------------------- | :----------------------------------- |
-|   甲   | gezihuzi  | B1nGzl | B1nGzl、星期五、HSHtime、今天星期六吧、myhloli、iOSSecret | iOS软件安全全局方法论                         |
+|   甲   | gezihuzi  | HSHtime | B1nGzl、星期五、HSHtime、今天星期六吧、myhloli、iOSSecret | iOS软件安全全局方法论                         |
 |   乙   | dunwin    | song   | song、dunwin、parker1014、长昵称、顾何、前方的路、easthg | PopUpOnStart                         |
 |   丙   | liuswear  | 布兜儿    | 布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial | 【IDA系列】IDA伴侣——FRIEND                 |
 |   戊   | 爱心觉罗      | 三点式    | 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 | 基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
