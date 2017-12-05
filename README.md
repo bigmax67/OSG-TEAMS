@@ -50,7 +50,7 @@
 | :---: | :-------- | :----- | :--------------------------------------- | :----------------------------------- |
 |   甲   | gezihuzi  | HSHtime | 星期五、HSHtime、今天星期六吧、myhloli、iOSSecret | iOS软件安全全局方法论                         |
 |   乙   | dunwin    | song   | song、dunwin、parker1014、长昵称、顾何、前方的路、easthg | PopUpOnStart                         |
-|   丙   | liuswear  | 布兜儿    | 布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial | 【IDA系列】IDA伴侣——FRIEND                 |
+|   丙   | liuswear  | 布兜儿    | 布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial | 【给iOS添加根证书太简单了！                 |
 |   戊   | 爱心觉罗      | 三点式    | 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 | 基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
 |   己   | 黑煤炭       | rainyx | rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人    | 【Code Review】Tweak开发：给调音量增加震动反馈      |
 |   辛   | 物以类聚      | afox   | afox、物以类聚、XGalaxy、AliceForever、ctonegao、麋鹿了迷路了、yaren | 【非越狱调试】逆向iOS过程中一些有用的Frida脚本（continue）          |
