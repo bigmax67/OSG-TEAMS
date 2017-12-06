@@ -3,7 +3,7 @@
 | TEAM | POINT |                  DETAIL                  |PAPER|
 | :--: | :---: | :--------------------------------------: |:--:|
 |  己  | 1000  | 黑煤炭：400 rainyx:300 紫风闲人：200 ksmokee：100  |[【Code Review】Tweak开发：给调音量增加震动反馈](./JI/【Code_Review】Tweak开发：给调音量增加震动反馈/)|
-|   丙 |  900  |  | [201709_IDA_Plugin_FRIEND_实验](./BING/201709_IDA_Plugin_FRIEND_实验/)|
+|   丙 |  900  | 布兜儿:200 kiba:300 mAd mArk:300 liuswear:100 | [201709_IDA_Plugin_FRIEND_实验](./BING/201709_IDA_Plugin_FRIEND_实验/)|
 |   甲 |  800  | HSHtime:800 | [iOS应用安全评估方法论翻译](./JIA/homework3_Methodology/iOS应用安全评估方法论_翻译.md)|
 
 
