@@ -3,16 +3,16 @@
 | BLACK  | POINT |    WHITE    | POINT |    KANXUE    | POINT |
 | :----: | :---: | :---------: | :---: | :----------: | :---: |
 |  黑苹果群  |  积分   |    白苹果群     |  积分   |     雪花群      |  积分   |
-|  afox  |  933  |    物以类聚     |  933  |    dunwin    |  900  |
-|  布兜儿   |  535  |    yaren    |  333  |     kiba     |  685  |
-| rainyx |  200  |     凌迟      |  175  | aliceforever |  400  |
-| B1nGzl |  100  |     小学生     |  175  |     chen     |  380  |
-|        |       |    黄大先生     |  150  |   madmark    |  380  |
-|        |       |   HSHtime   |  150  |     初 见      |  350  |
-|        |       | AloneMonkey |  135  |   liuswear   |  335  |
-|        |       |     七步阶     |  100  |     黑煤炭      |  200  |
-|        |       |             |       |     紫枫闲人     |  200  |
-|        |       |             |       |  cosmosdzh   |  200  |
+|afox|933|HSHtime|950|kiba|985|
+|布兜儿|735|物以类聚|933|dunwin|900|
+|rainyx|500|yaren|333|madmark|680|
+|B1nGzl|100|凌迟|175|黑煤炭|600|
+|||小学生|175|liuswear|435|
+|||黄大先生|150|aliceforever|400|
+|||AloneMonkey|135|紫枫闲人|400|
+|||七步阶|100|chen|380|
+|||||初 见|350|
+|||||cosmosdzh|200|
 
 .
 .
