@@ -52,7 +52,7 @@
 |   乙   | dunwin    | song   | song、dunwin、parker1014、长昵称、顾何、前方的路、easthg | PopUpOnStart                         |
 |   丙   | liuswear  | 布兜儿    | 布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial | 【给iOS添加根证书太简单了！                 |
 |   戊   | 爱心觉罗      | 三点式    | 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 | 基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
-|   己   | 黑煤炭       | rainyx | rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人    | 【Code Review】Tweak开发：给调音量增加震动反馈      |
+|   己   | 黑煤炭       | rainyx | rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人    | 在10.12 macOS Sierra上编译XNU内核    |
 |   辛   | 物以类聚      | afox   | afox、物以类聚、XGalaxy、AliceForever、ctonegao、麋鹿了迷路了、yaren | 【非越狱调试】逆向iOS过程中一些有用的Frida脚本（continue）          |
 |   丑   | 凌迟        | 黄大先生   | 黄大先生、brack、凌迟、小学生、Arming、debug           | APT团队海莲花出新品啦——全新设计的高级macOS后门软体套件！    |
 
