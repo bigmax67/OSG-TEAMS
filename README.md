@@ -5,16 +5,16 @@
 | BLACK  | POINT |    WHITE    | POINT |    KANXUE    | POINT |
 | :----: | :---: | :---------: | :---: | :----------: | :---: |
 |  黑苹果群  |  积分   |    白苹果群     |  积分   |     雪花群      |  积分   |
-|  afox  |  933  |    物以类聚     |  933  |    dunwin    |  900  |
-|  布兜儿   |  535  |    yaren    |  333  |     kiba     |  685  |
-| rainyx |  200  |     凌迟      |  175  | aliceforever |  400  |
-| B1nGzl |  100  |     小学生     |  175  |     chen     |  380  |
-|        |       |    黄大先生     |  150  |   madmark    |  380  |
-|        |       |   HSHtime   |  150  |     初 见      |  350  |
-|        |       | AloneMonkey |  135  |   liuswear   |  335  |
-|        |       |     七步阶     |  100  |     黑煤炭      |  200  |
-|        |       |             |       |     紫枫闲人     |  200  |
-|        |       |             |       |  cosmosdzh   |  200  |
+|afox|933|HSHtime|950|kiba|985|
+|布兜儿|735|物以类聚|933|dunwin|900|
+|rainyx|500|yaren|333|madmark|680|
+|B1nGzl|100|凌迟|175|黑煤炭|600|
+|||小学生|175|liuswear|435|
+|||黄大先生|150|aliceforever|400|
+|||AloneMonkey|135|紫枫闲人|400|
+|||七步阶|100|chen|380|
+|||||初 见|350|
+|||||cosmosdzh|200|
 
 .
 .
@@ -54,7 +54,7 @@
 |   乙   | dunwin    | song   | song、dunwin、parker1014、长昵称、顾何、前方的路、easthg | PopUpOnStart                         |
 |   丙   | liuswear  | 布兜儿    | 布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial | 【给iOS添加根证书太简单了！                 |
 |   戊   | 爱心觉罗      | 三点式    | 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 | 基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
-|   己   | 黑煤炭       | rainyx | rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人    | 【Code Review】Tweak开发：给调音量增加震动反馈      |
+|   己   | 黑煤炭       | rainyx | rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人    | 在10.12 macOS Sierra上编译XNU内核    |
 |   辛   | 物以类聚      | afox   | afox、物以类聚、XGalaxy、AliceForever、ctonegao、麋鹿了迷路了、yaren | 【非越狱调试】逆向iOS过程中一些有用的Frida脚本（continue）          |
 |   丑   | 凌迟        | 黄大先生   | 黄大先生、brack、凌迟、小学生、Arming、debug           | APT团队海莲花出新品啦——全新设计的高级macOS后门软体套件！    |
 
