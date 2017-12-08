@@ -1,3 +1,5 @@
+# 历史文章存档：[点击这里](TopicHistory.md)
+
 # RANKINGS
 
 | BLACK  | POINT |    WHITE    | POINT |    KANXUE    | POINT |
